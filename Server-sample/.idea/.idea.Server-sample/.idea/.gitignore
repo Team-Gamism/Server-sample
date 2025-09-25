@@ -1,0 +1,32 @@
+﻿# 빌드 출력물
+/bin/
+/obj/
+/out/
+
+# 사용자별 설정 파일
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 관련
+.vs/
+
+# NuGet 패키지
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# 로그/캐시
+*.log
+*.tlog
+*.vscode/
+*.tmp
+*.temp
+
+# 환경 변수/비밀 키 (local 개발용)
+*.env
+appsettings.Development.json
+secrets.json
